@@ -1,0 +1,61 @@
+*{
+    padding:0px;
+    margin:0;
+}
+
+body{
+    height:100%;
+}
+
+h1{
+    text-align: center;
+    margin:5px;
+    padding:5px;
+}
+
+img{
+    width:100%;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(2,3fr);
+    gap:5px;
+    margin-top: 10px;
+}
+
+.card{
+
+    border: 2px solid red;
+    border-radius: 12px;
+    box-shadow: 14px 11px 12px 1px rgba(206,181,181,0.74);
+
+
+
+}
+
+.content{
+    text-align:center;
+    margin:5px;
+    padding:4px;
+}
+
+a{
+    text-decoration: none;
+    width:100px;
+    height:50px;
+    border-radius: 14px;
+    background-color: aqua;
+    color:black;
+    margin-top: 5px;
+}
+
+.button:hover{
+    background-color: chartreuse;
+}
+
+.card:hover{
+    background-color: burlywood;
+}
+
+
